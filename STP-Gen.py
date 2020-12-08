@@ -44,4 +44,6 @@ def menu():
         else:
             raise ValueError("WRONG OPTION\nPlease choose between 1 to 4...")
         opt_continue = input("Wanna make more passwords?\nyes/no")
-menu()
+        
+if __name__ == "__main__":
+    menu()
